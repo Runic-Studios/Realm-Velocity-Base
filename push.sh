@@ -10,7 +10,6 @@ REGISTRY_USER="$1"
 REGISTRY_PASSWORD="$2"
 
 ARTIFACT="registry.runicrealms.com/library/realm-velocity-base:latest"
-ARTIFACT="registry.runicrealms.com/library/realm-velocity-base:latest"
 
 rm -f artifact.zip || true
 echo 'Zipping artifact...'
